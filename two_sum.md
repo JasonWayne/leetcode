@@ -11,7 +11,7 @@ Output: index1=1, index2=2
 3. 要返回的索引值并不是原来的索引值，而是加1以后的值
 
 ##方案一：
-···Python
+```Python
 class Solution:
 	# @return a tuple, (index1, index2)
 	def twoSum(self, num, target):
@@ -26,4 +26,4 @@ class Solution:
 					return (index2+1, index1+1)
 			except:
 				dic[num[i]] = i
-···
+```
